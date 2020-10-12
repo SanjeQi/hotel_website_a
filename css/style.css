@@ -49,6 +49,24 @@ p {
   background-color: #444;
   color: #f7c087;
 }
+.btn_light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg_dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg_light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.bg_primary {
+  background-color: #333;
+  color: #f7c08a;
+}
 
 /* Navbar  *****************************************/
 #navbar {
@@ -100,4 +118,26 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+/* ******************** Home_info */
+#home_info {
+  height: 400px;
+}
+#home_info .info_img {
+  float: left;
+  width: 50%;
+  background-image: url(../img/photo-1.jpg);
+  min-height: 100%;
+}
+#home_info .info_content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home_info .info_content p {
+  padding-bottom: 30px;
 }
