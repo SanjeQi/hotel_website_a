@@ -1,0 +1,132 @@
+/* ************************* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*  *********************** Main */
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.7em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px 0;
+}
+/*  *********************** Util Classes */
+.container {
+  margin: auto;
+  overflow: auto;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+.btn {
+  display: inline-block;
+  background-color: #333;
+  padding: 13px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #444;
+  color: #f7c087;
+}
+.btn_light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.color_word {
+  color: #f7c08a;
+}
+/* ******************************** Navbar */
+#navbar {
+  background-color: #333;
+  overflow: auto;
+}
+#navbar h1 {
+  float: left;
+  padding: 20px;
+}
+#navbar a {
+  color: #fff;
+}
+#navbar .navbar-content ul {
+  float: right;
+}
+#navbar .navbar-content ul li {
+  float: left;
+}
+#navbar .navbar-content ul li a {
+  display: block;
+  padding: 20px;
+}
+#navbar .navbar-content ul li a:hover,
+#navbar .navbar-content ul li a.selected {
+  color: #f7c08a;
+  background-color: #444;
+}
+
+/* ***************************** Showcase */
+#show-case {
+  background-image: url(../img/showcase.jpg);
+  height: 600px;
+}
+#show-case .showcase-content {
+  text-align: center;
+  color: #fff;
+  padding: 160px;
+}
+#show-case .showcase-content h1 {
+  line-height: 1.7em;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+#show-case .showcase-content h1 span {
+  color: #f7c08a;
+}
+#show-case .showcase-content p {
+  line-height: 1.5em;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+/* ***********************Section  Home Info */
+#home_info {
+  height: 400px;
+}
+#home_info .info_img {
+  float: left;
+  background-image: url(../img/photo-1.jpg);
+  width: 50%;
+  min-height: 100%;
+}
+#home_info .info_content {
+  float: right;
+  width: 50%;
+  overflow: hidden;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  background-color: #333;
+  color: #fff;
+}
+#home_info .info_content h2 {
+  padding-bottom: 50px;
+}
+#home_info .info_content h2 span {
+}
+#home_info .info_content p {
+  padding-bottom: 40px;
+}
