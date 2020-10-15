@@ -64,8 +64,11 @@ p {
   color: #333;
 }
 .bg_primary {
-  background-color: #333;
-  color: #f7c08a;
+  color: #333;
+  background-color: #f7c08a;
+}
+.clear {
+  clear: both;
 }
 
 /* Navbar  *****************************************/
@@ -140,4 +143,27 @@ p {
 
 #home_info .info_content p {
   padding-bottom: 30px;
+}
+/* ****************** Feature Section ****************** */
+#features {
+  height: 400px;
+}
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+/* ***************** Footer ***************** */
+.clear {
+  float: none;
+}
+#main_footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
 }
