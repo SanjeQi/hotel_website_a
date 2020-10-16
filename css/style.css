@@ -70,6 +70,20 @@ p {
 .clear {
   clear: both;
 }
+.l_heading {
+  font-size: 40px;
+}
+
+/* ************** Padding ********** */
+.py_1 {
+  padding: 10px 0;
+}
+.py_2 {
+  padding: 20px 0;
+}
+.py_3 {
+  padding: 30px 0;
+}
 
 /* Navbar  *****************************************/
 #navbar {
@@ -157,13 +171,32 @@ p {
 .box i {
   margin-bottom: 10px;
 }
-/* ***************** Footer ***************** */
-.clear {
-  float: none;
+/* ********************* About Info ******************* */
+#about_info .info_right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
 }
+#about_info .info_right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 48%;
+}
+
+#about_info .info_left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+/* ***************** Footer ***************** */
 #main_footer {
   text-align: center;
   background-color: #333;
   color: #fff;
   padding: 5px;
+}
+
+.clear {
+  float: none;
 }
