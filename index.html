@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Hotel BT | Welcome</title>
+    <title>Hotel BT | Contact</title>
   </head>
   <body>
     <header>
@@ -18,68 +18,58 @@
         <div class="container">
           <h1 class="logo"><a href="index.html">HBT</a></h1>
           <ul>
-            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <div id="showcase">
-        <div class="container">
-          <div class="showcase-content">
-            <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa
-              totam tempore, quos cumque similique.
-            </p>
-            <a class="btn" href="about.html">About our Hotel</a>
+    </header>
+
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+        <p>Please fill out the form below to contact us</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
           </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Location</h3>
+          <p>50 Main st, Boston MA</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>(617) 555-5555</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email Address</h3>
+          <p>frontdesk@hotelbt.co</p>
         </div>
       </div>
-    </header>
-    <section id="home_info" class="bg_dark">
-      <div class="info_img"></div>
-      <div class="info_content">
-        <h2><span class="text-primary">The History</span> Of Our Hotel</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At error
-          impedit, harum nostrum ex voluptatibus id nulla non nemo voluptatum
-          aut atque est eveniet maiores omnis eos, labore debitis vitae! Laborum
-          illum omnis laudantium reprehenderit voluptatibus in dolorum minus
-          unde.
-        </p>
-        <a href="about.html" class="btn btn_light">Read More</a>
-      </div>
     </section>
-    <section id="features bg_light">
-      <div class="box">
-        <i class="fas fa-hotel fa-3x"></i>
-        <h3>Great Location</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
-          dolores!
-        </p>
-      </div>
-      <div class="box bg_primary">
-        <i class="fas fa-utensils fa-3x"></i>
-        <h3>Free Meals</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
-          dolores!
-        </p>
-      </div>
-      <div class="box bg_light">
-        <i class="fas fa-dumbbell fa-3x"></i>
-        <h3>Fitness Room</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
-          dolores!
-        </p>
-      </div>
-    </section>
-    <div class="clear"></div>
-    <footer id="main_footer">
-      <p>Hotel BT &COPY;, All Rights Reserved</p>
+
+    <footer id="main-footer">
+      <p>Hotel BT &copy; 2019, All RIghts Reserved</p>
     </footer>
   </body>
 </html>
