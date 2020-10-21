@@ -173,7 +173,45 @@ p {
 }
 /* ********************* About Info ******************* */
 
+#about_info .info_right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about_info .info_right img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+#about_info .info_left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
 /* *************** About testimonials ******** */
+#testimonials {
+  height: 825px;
+  background-image: url(../img/test-bg.jpg);
+  padding-top: 40px;
+}
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
 
 /* ***************** Footer ***************** */
 #main_footer {
